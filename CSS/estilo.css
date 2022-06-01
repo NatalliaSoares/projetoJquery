@@ -1,0 +1,134 @@
+body{
+    background-image: url(../img/fundo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.fighters{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.boxLut1{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+}
+
+.boxLut2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+}
+
+#lutBill, #lutKatie, #lutMark, #lutMusk{
+    width: 550px;
+    height: 600px;
+    opacity: 0; 
+    position: absolute;
+}
+
+#lutBill2, #lutKatie2, #lutMark2, #lutMusk2{
+    width: 550px;
+    height: 550px;
+    opacity: 0;  
+    position: absolute;
+}
+
+.fotos1{
+    display: flex;
+    flex: 1;    
+    justify-content: space-around;
+}
+
+.fotos2{
+    display: flex;
+    flex: 1;   
+    justify-content: space-around;
+}
+
+.escolher{
+    display: flex;
+    position: relative;
+    top: 600px; 
+    justify-content: center;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    align-items: center;    
+}
+
+#botaoBill, #botaoKatie, #botaoMark, #botaoMusk {
+    width: 150px;
+    height: 150px;
+    border-radius: 7%;
+    cursor: pointer; 
+    box-shadow: 0px 0px 10px 10px rgb(30, 24, 100);
+}
+
+#botaoBill:hover,#botaoKatie:hover,#botaoMark:hover, #botaoMusk:hover{
+    border-radius: 20%;
+    padding: 10px;
+    background-color: rgb(46, 43, 226);
+}
+
+.selecionado{
+    padding: 10px;
+    background-color: rgb(46, 43, 226);
+}
+
+.selecionado2{
+    padding: 10px;
+    background-color:rgb(226, 43, 119);
+}
+
+#botaoBill2:hover,#botaoKatie2:hover,#botaoMark2:hover, #botaoMusk2:hover{
+    border-radius: 20%;
+    padding: 10px;
+    background-color: rgb(226, 43, 134);
+}
+
+#botaoBill2, #botaoKatie2, #botaoMark2, #botaoMusk2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 7%;
+    cursor: pointer; 
+    box-shadow: 0px 0px 10px 10px rgb(100, 24, 66);
+}
+
+.versus{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 70px;
+    color: white;
+    position: fixed;
+    bottom: 180px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 10px 10px rgb(0, 0, 0);
+}
+
+.lutadores{
+    width: 550px;
+    height: 600px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.player{
+    width: 562px;
+    height: 93px;
+    margin-top: 10px;
+}
