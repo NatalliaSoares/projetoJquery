@@ -50,7 +50,7 @@ $(document).ready(function(){
         opacity: 0,
         });
         $('#lutKatie').animate({
-            opacity: 0,
+            opacity: 0, 
         });
         $('#lutBill').animate({
             opacity: 0,
