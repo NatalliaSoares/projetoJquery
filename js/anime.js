@@ -11,8 +11,7 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutBill').animate({
-            opacity: 1,
-            left: '100px',    
+            opacity: 1,   
          });
     });
 
@@ -27,8 +26,7 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutKatie').animate({
-        opacity: 1,
-        left: '250px',      
+        opacity: 1,     
         });
     });
 
@@ -43,8 +41,7 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutMark').animate({
-        opacity: 1,
-        left: '250px',     
+        opacity: 1,    
         });
     });
 
@@ -53,14 +50,13 @@ $(document).ready(function(){
         opacity: 0,
         });
         $('#lutKatie').animate({
-            opacity: 0,
+            opacity: 0, 
         });
         $('#lutBill').animate({
             opacity: 0,
         });
         $('#lutMusk').animate({
-        opacity: 1,
-        left: '250px',     
+        opacity: 1,    
         });
     });
 });
@@ -79,8 +75,7 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutBill2').animate({
-        opacity: 1,
-        left: '1200px',     
+        opacity: 1, 
          });
     });
 
@@ -95,8 +90,7 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutKatie2').animate({
-        opacity: 1,
-        left: '1200px',     
+        opacity: 1    
         });
     });
 
@@ -111,14 +105,13 @@ $(document).ready(function(){
             opacity: 0,
         });
         $('#lutMark2').animate({
-        opacity: 1,
-        left: '1200px',     
+        opacity: 1,   
         });
     });
 
     $('#botaoMusk2').on("click", function(){
         $('#lutMark2').animate({
-        opacity: 0,
+        opacity: 0, 
         });
         $('#lutKatie2').animate({
             opacity: 0,
@@ -128,7 +121,6 @@ $(document).ready(function(){
         });
         $('#lutMusk2').animate({
         opacity: 1,
-        left: '1200px',    
         });
     });
 });
